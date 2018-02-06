@@ -49,8 +49,12 @@ class AddForm extends Component {
                             <input onChange={this.handleInputChange} name="details" value={details} placeholder="Item Details" type="text"/>
                         </div>
                     </div>
-                    <div className="right-align">
-                        <button className="btn blue darken-3">Add Item</button>
+                    <div className="row">
+                        <div className="right-align">
+                            <button className="btn blue darken-3">
+                                Add Item
+                            </button>
+                        </div>
                     </div>
                 </form>
             </div>
